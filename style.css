@@ -1,0 +1,26 @@
+h1{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5%;
+}
+body{
+    background-color: rgb(103, 52, 151);
+}
+*{
+    text-align: center;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+#resultado{
+    height: 25vh;
+    width: 29vw;
+    background-color: antiquewhite;
+    margin: auto;
+}
+h2{
+    color: black;
+}
+
+

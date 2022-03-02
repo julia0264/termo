@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>termômetro</title>
+    <link rel="stylesheet" 
+type="text/css" href="style.css" media="screen" />
+
+</head>
+<body>
+    <h1>Conversão de Temperatura</h1>
+    <div> 
+        <p>Digite um número abaixo:</p>
+            <input type="text" id="numero"> 
+            <select  id="sele"value="" >
+                <option value="c">Celsius</option>
+                <option value="f">Fahrenheit</option>
+                <option value="k">Kelvin</option>
+                <option value="r">Rankine</option>
+            </select>
+    </div>
+    <br>
+    <div>
+        <button id="calcular">Calcular</button> 
+        <button id="redefinir">Redefinir</button>
+    </div>
+    <br>
+    <div id="resultado">
+
+    </div>
+
+    <script src="./js.js"></script>
+</body>
+</html>
